@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>GCJ - Pixel Manif</title>
+		<meta name="description" content="Les casseurs sont pas très gentil"/>
+		<meta name="robots" content="all"/>
+		<script charset="utf-8" src="srcs/chrono.js"></script>
+		<script charset="utf-8" src="srcs/game.js"></script>
+		<script charset="utf-8" src="srcs/path.js"></script>
+		<script charset="utf-8" src="srcs/google.js"></script>
+		<link rel="icon" sizes="512x512" href="assets/pictures/favicon.png">
+		<link id="dynamic-favicon" rel="shortcut icon" type="image/x-icon" href="assets/pictures/favicon.ico">
+		<style>
+			body{
+				background:black;
+			}
+			@font-face {
+			  font-family: 'MyFont';
+			  src: url('assets/fonts/font.ttf')  format('truetype');
+			}
+			input{
+			    position: fixed;
+				top: 17%;
+				right: 7%;
+				width: 20%;
+				height: 5%;
+				font-size: 33px;
+				padding: 6px;
+			}
+		</style>
+	</head>
+	<body>
+		<canvas id="canvas" width="1920" height="1080"></canvas>
+		<input id="name" placeholder="Your Name" style="display:none"/>
+	</body>
+</html>
